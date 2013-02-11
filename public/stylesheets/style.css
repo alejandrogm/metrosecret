@@ -1,8 +1,6 @@
 body {
   font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
   padding: 10px 0;
-  margin: 0 auto;
-  width: 960px;
 }
 a {
   color: #00b7ff;
@@ -10,7 +8,42 @@ a {
 #phone480 {
   border: 1px solid #808080;
   height: 800px;
+  margin-right: 1em;
   width: 480px;
+}
+#phone720 {
+  border: 1px solid #808080;
+  height: 1280px;
+  margin-right: 1em;
+  width: 720px;
+}
+#phone720 .container {
+  width: 648px;
+}
+#phone720 .span1 {
+  height: 149px;
+}
+#phone720 .span2,
+#phone720 #phone720,
+#phone720 .span4 {
+  height: 315px;
+}
+#phone768 {
+  border: 1px solid #808080;
+  height: 1280px;
+  margin-bottom: 2em;
+  width: 768px;
+}
+#phone768 .container {
+  width: 691px;
+}
+#phone768 .span1 {
+  height: 159px;
+}
+#phone768 .span2,
+#phone768 #phone768,
+#phone768 .span4 {
+  height: 336px;
 }
 .bg-color-lime {
   background-color: #a4c400;
@@ -76,6 +109,9 @@ a {
   margin: 0 auto;
   width: 432px;
 }
+.pull-left {
+  float: left;
+}
 .row {
   clear: both;
   overflow: hidden;
@@ -83,13 +119,16 @@ a {
 }
 .span1 {
   float: left;
-  margin-left: 2.779%;
-  margin-top: 2.85%;
   height: 99px;
   width: 22.92%;
 }
 .span1:first-child {
   margin-left: 0;
+}
+.span1,
+.span2 {
+  margin-left: 2.77%;
+  margin-top: 2.66%;
 }
 .span1.null-left,
 .span2.null-left {
@@ -98,8 +137,6 @@ a {
 .span2 {
   float: left;
   height: 210px;
-  margin-left: 2.779%;
-  margin-top: 2.85%;
   width: 48.613%;
 }
 .span2.span-right {
