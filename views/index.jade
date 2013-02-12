@@ -1,25 +1,25 @@
 extends layout
 
-block content
-	h1= title
-	
+block content	
+	#wrapper
+		h1= title
 		#phone
+			#content
+				#buttons
+					h2 controls
+					h3 Push Button
+					.push-button button
+					.clearfix
+					h3 Disabled Button
+					.push-button.disabled button
+			
+		h2 Grid System
 			.container
 				.row
 					.span1.bg-color-green 1
 					.span1.bg-color-lime 1
-					.span1.bg-color-lime 1
-					.span1.bg-color-lime 1
-				.row
-					.span1.bg-color-lime 1
-					.span1.bg-color-lime 1
 					.span2.span-right.bg-color-teal 2
 					.span1.null-left.bg-color-lime 1
-					.span1.bg-color-lime 1
-					.span2.null-left.bg-color-teal 2
-					.span1.bg-color-lime 1
-					.span1.bg-color-lime 1
-					.span1.bg-color-lime 1
 					.span1.bg-color-lime 1
 				.row
 					.span4.bg-color-magenta 4
