@@ -1,19 +1,29 @@
 body {
-  color: #333;
+  margin: 0;
 }
-#content {
+header {
   background: #000;
-  height: 800px;
-  width: 480px;
+  margin-bottom: 1em;
+  overflow: hidden;
+  padding: 0.5em 0;
 }
-#phone {
-  background: url("img/phone.jpg") no-repeat;
+#colors .span1 {
+  height: 40px;
+  width: 40px;
+}
+#logo {
   color: #fff;
-  height: 800px;
-  width: 480px;
-  padding: 104px 77px 168px;
+  margin: 0 auto;
+  padding: 0 0.5em;
+  width: 960px;
 }
 #wrapper {
+  height: auto;
   margin: 0 auto;
-  width: 960px;
+}
+#wrapper .container {
+  height: auto;
+}
+.push-button.hover {
+  background: #1ba1e2;
 }

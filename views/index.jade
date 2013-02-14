@@ -1,20 +1,49 @@
 extends layout
 
 block content	
+	header
+		h1#logo= title
+		
 	#wrapper
-		h1= title
-		#phone
-			#content
-				#buttons
-					h2 controls
-					h3 Push Button
-					.push-button button
-					.clearfix
-					h3 Disabled Button
-					.push-button.disabled button
-			
-		h2 Grid System
+		#buttons
 			.container
+				h2.title Controls
+				h3.title-big Push Button
+				h4.sub-title Push button rest state
+				.push-button button
+				h4.sub-title Push button finger down
+				.push-button.hover button
+				h4.sub-title Disabled Button
+				.push-button.disabled button
+
+		#colors				
+			.container
+				h2.title Background Colors
+				.row
+					.span1.bg-color-lime
+					.span1.bg-color-green
+					.span1.bg-color-emerald
+					.span1.bg-color-teal
+					.span1.bg-color-cyan
+					.span1.bg-color-cobalt
+					.span1.bg-color-indigo
+					.span1.bg-color-violet
+					.span1.bg-color-pink
+					.span1.bg-color-magenta
+					.span1.bg-color-crimson
+					.span1.null-left.bg-color-red
+					.span1.bg-color-orange
+					.span1.bg-color-amber
+					.span1.bg-color-yellow
+					.span1.bg-color-brown
+					.span1.bg-color-olive
+					.span1.bg-color-steel
+					.span1.bg-color-mauve					
+					.span1.bg-color-taupe
+					
+		#grid			
+			.container
+				h2.title Grid System
 				.row
 					.span1.bg-color-green 1
 					.span1.bg-color-lime 1
@@ -22,4 +51,4 @@ block content
 					.span1.null-left.bg-color-lime 1
 					.span1.bg-color-lime 1
 				.row
-					.span4.bg-color-magenta 4
+					.span4.bg-color-magenta 4					
